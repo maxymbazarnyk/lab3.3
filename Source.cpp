@@ -24,10 +24,11 @@ int main()
 			else
 				if (-R < x && x <= 0)
 					y = sqrt(R * R - x * x - 12 * x - 36);
-	if (0 < x && x <= 3)
-		y = (-R / 3) * x + R;
-	else
-		y = (x - R) / 2;
+				else
+	                if (0 < x && x <= 3)
+		                y = (-R / 3) * x + R;
+	                else
+		                y = (x - R) / 2;
 	cout << endl;
 	cout << "y = " << y << endl;
 	cin.get();
